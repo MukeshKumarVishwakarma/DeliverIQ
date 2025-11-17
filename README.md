@@ -1,16 +1,66 @@
-# React + Vite
+# DeliverIQ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DeliverIQ is a modern and responsive food-delivery web application built using **React**, **Vite**, **Tailwind CSS**, **Redux**, and **Context API**.  
+This project focuses on clean UI, efficient global state management, and component-based architecture.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo (Deployed Link)
+https://food-delivery-website-sage-six.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+ React (Vite) – Fast, modern frontend framework  
+Tailwind CSS – Utility-first CSS framework  
+Redux Toolkit – For global state management  
+Context API – For lightweight state sharing between components  
+JavaScript
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React + Vite fast development
+Fully responsive UI using Tailwind CSS  
+Global state handled through Redux Toolkit
+Additional local/global state handled via Context API
+Clean folder structure for scalability
+Easy to extend and integrate with APIs
+
+## 🔧 Installation & Setup
+1️⃣ Clone the Repository : git clone https://github.com/MukeshKumarVishwakarma/DeliverIQ.git
+cd DeliverIQ
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Start Development Server
+npm run dev
+
+4️⃣ sBuild for Production
+npm run build
+
+📁 Folder Structure
+
+
+<img width="595" height="445" alt="image" src="https://github.com/user-attachments/assets/85ebfb5f-27f3-49a6-b8bd-d013a0daf0d6" />
+
+
+🎯 State Management
+🔹 Redux Toolkit
+Used for global, application-level state such as:
+Cart management
+User data
+Product/restaurant data
+
+🔹 Context API
+Used for lightweight UI state:
+Theme / UI toggles
+Temporary local states
+Modal / popup visibility
+
+Available Commands
+| Command           | Description                      |
+| ----------------- | -------------------------------- |
+| `npm run dev`     | Run development server           |
+| `npm run build`   | Build production bundle          |
+| `npm run preview` | Preview production build locally |
+
+
